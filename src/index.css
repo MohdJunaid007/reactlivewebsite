@@ -1,3 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+* {
+  font-family: 'Luxurious Roman', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cardHeight
+{
+  height: 260px !important;
+}
+.navbars{
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: rgb(49, 48, 48) !important;
+}
+.navbar a:hover{
+  color: brown !important;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +29,106 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid yellowgreen;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name{
+  color: rgb(19, 148, 165);
+}
+#header h2{
+  color: black;
+  font-size: 24px;
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+.header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+/* responsive code */
+@media (max-width:991px){
+  #header{
+    height:80vh;
+    text-align: center;
+  }
+
+  #header .header-img{
+    text-align: center;
+  }
+
+  #header .header-img img{
+    width:60%;
+  }
+}
+
+@media (max-width:768px){
+  #header{
+    margin-top: 20px;
+  }
+
+  #header h1{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #header h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  #header .header-img img{
+    width:70%;
+  }
+}
+/* footer css */
+.mailUs{
+  text-decoration: none;
+  color: black;
+}
+
+
