@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactlivewebsite/static/css/main.b465e821.css",
+    "main.js": "/reactlivewebsite/static/js/main.3db94b30.js",
+    "static/media/img2.png": "/reactlivewebsite/static/media/img2.7d96502eb18597366b36.png",
+    "static/media/bookHome.jpeg": "/reactlivewebsite/static/media/bookHome.33626f4281bbd57ad4ac.jpeg",
+    "static/media/jd.png": "/reactlivewebsite/static/media/jd.08860d4a7b52a8b407f7.png",
+    "static/media/img3.jpg": "/reactlivewebsite/static/media/img3.bedd2b4e91344e8d9806.jpg",
+    "static/media/img5.jpg": "/reactlivewebsite/static/media/img5.70f1510b842d064df69c.jpg",
+    "static/media/img6.jpg": "/reactlivewebsite/static/media/img6.ce3b3a2ed5bbaff969e9.jpg",
+    "static/media/new.jpg": "/reactlivewebsite/static/media/new.dc82cc8e4b7f49d34962.jpg",
+    "static/media/img1.jpg": "/reactlivewebsite/static/media/img1.719b8dfdac08f2ffa2f6.jpg",
+    "static/media/cardimg.jpg": "/reactlivewebsite/static/media/cardimg.029f46f475034c2fc8eb.jpg",
+    "static/media/img4.jpg": "/reactlivewebsite/static/media/img4.b0a09c89dadef0066c0f.jpg",
+    "index.html": "/reactlivewebsite/index.html",
+    "main.b465e821.css.map": "/reactlivewebsite/static/css/main.b465e821.css.map",
+    "main.3db94b30.js.map": "/reactlivewebsite/static/js/main.3db94b30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b465e821.css",
+    "static/js/main.3db94b30.js"
+  ]
+}
